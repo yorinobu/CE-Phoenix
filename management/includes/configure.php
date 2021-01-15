@@ -6,12 +6,18 @@
   const COOKIE_OPTIONS = [
     'lifetime' => 0,
     'domain' => 'www.seomagic-usa.com',
-    'path' => '/CE-Phoenix/',
+    'path' => '/CE-Phoenix/management',
     'samesite' => 'Lax',
     'secure' => true,
   ];
-  const DIR_WS_CATALOG = '/CE-Phoenix/';
+  const DIR_WS_ADMIN = '/CE-Phoenix/management/';
 
+  const DIR_FS_DOCUMENT_ROOT = '/Users/nagatayorinobu/Dropbox/htdocs/www.seomagic-usa.com/CE-Phoenix/';
+  const DIR_FS_ADMIN = '/Users/nagatayorinobu/Dropbox/htdocs/www.seomagic-usa.com/CE-Phoenix/management/';
+  const DIR_FS_BACKUP = DIR_FS_ADMIN . 'backups/';
+
+  const HTTP_CATALOG_SERVER = 'https://www.seomagic-usa.com';
+  const DIR_WS_CATALOG = '/CE-Phoenix/';
   const DIR_FS_CATALOG = '/Users/nagatayorinobu/Dropbox/htdocs/www.seomagic-usa.com/CE-Phoenix/';
 
   date_default_timezone_set('America/Los_Angeles');
